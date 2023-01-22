@@ -1,0 +1,100 @@
+body{
+    background-color: #ffddec;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff95cd;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff95cd;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff95cd;
+    display: flex;
+    justify-content: center;
+}
+
+#boutonoui{
+    width: 120px;
+    height: 75px;
+    font-size: 25px;
+    color: #ff95cd;
+    margin-right: 30px;
+}
+
+#boutonnon{
+    width: 120px;
+    height: 75px;
+    font-size: 25px;
+    color: #ff95cd;
+    margin-left: 30px;
+}
+
+#boutongo{
+    width: 120px;
+    height: 75px;
+    font-size: 25px;
+    color: #ff0090;
+}
+
+.go{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  .flash {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .zoomIn {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both
+  }
